@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "919320849828",
+    "firebase_url": "https://oderfood-dacf2.firebaseio.com",
+    "project_id": "oderfood-dacf2",
+    "storage_bucket": "oderfood-dacf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919320849828:android:2dcda27a780b4be3806531",
+        "android_client_info": {
+          "package_name": "com.example.oderfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919320849828-bd7ltsjdcu99aain3bjg58hjmaao0eer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oderfoodapp",
+            "certificate_hash": "c98826a3a2bd052ff67480e7a38f2926dcdb978e"
+          }
+        },
+        {
+          "client_id": "919320849828-7pp3186c669kvdevnkpkk46lgoj6hmdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgTpQ_mb7m0tmyMifMUHQMw99voQsM9nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919320849828-7pp3186c669kvdevnkpkk46lgoj6hmdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

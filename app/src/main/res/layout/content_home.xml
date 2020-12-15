@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <edmt.dev.edmtslider.SliderLayout
+            android:id="@+id/slider"
+            app:pager_animation="FlipHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+
+        </edmt.dev.edmtslider.SliderLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/polular_categories"
+                android:fontFamily="@font/brandon_medium"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_popular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_weight="4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/best_deals"
+                android:fontFamily="@font/brandon_medium"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_menu"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
