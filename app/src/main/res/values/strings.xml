@@ -12,6 +12,8 @@
     <string name="best_deals">Best Deals</string>
     <string name="forgot_pwd"><u>Forgot Password ?</u></string>
 
+    <string name="check_your_connection">Please check your connection</string>
+    <string name="menu_title">Menu</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
